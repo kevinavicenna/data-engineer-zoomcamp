@@ -1,0 +1,13 @@
+
+docker image ls
+docker ps -a
+
+Jalanin langsung mode interaktif
+docker run -it --entrypoint=bash python:3.9
+
+
+Cara Build image
+-setting dockerfiles dulu
+-docker build -t python:latest .
+
+

@@ -1,0 +1,8 @@
+- cara menghapus docker None image
+  docker system prune
+  untuk membersihkan kontainer, jaringan, dan volume yang tidak terpakai 
+
+- menjalankan docker harus sesuai tag nya
+  misal docker run python:3.9
+  jika sudah terdownload maka tidak akan mendownload image lagi
+  jika tidak secara spesifik menyebutkan makan akan mendowload kembali 

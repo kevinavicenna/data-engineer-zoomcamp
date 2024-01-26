@@ -1,0 +1,13 @@
+postgre config/storage file/*
+postgre config/testin ingest/*
+postgre config/ny_green_taxi_postgres_data/*
+postgre config/
+
+
+
+
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.env
